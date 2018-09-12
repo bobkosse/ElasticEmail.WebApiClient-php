@@ -1,15 +1,21 @@
 {
-    "name": "elastic-email/web-api-client",
+    "name": "bizprove/elastic-email-web-api-client",
     "type": "library",
     "description": "Easily send emails with Elastic Email using Web API PHP Client https://elasticemail.com/",
     "keywords": ["elastic","email", "elasticemail", "transactional", "web", "api"],
-    "homepage": "https://github.com/ElasticEmail/ElasticEmail.WebApiClient-php",
+    "homepage": "https://github.com/bobkosse/ElasticEmail.WebApiClient-php",
     "license": "MIT",
     "authors": [
         {
             "name": "ElasticEmail Dev Team",
             "email": "support@elasticemail.com",
             "homepage": "https://elasticemail.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Bizprove Dev Team",
+            "email": "info@bizprove.nl",
+            "homepage": "https://bizprove.nl/",
             "role": "Developer"
         }
     ],
