@@ -20,7 +20,8 @@
                 $this->httpClient = $conf->getClientInterface();
             } else {
                 $this->httpClient = new \GuzzleHttp\Client([
-                    'timeout'  => $this->configuration->getTimeout()
+                    'timeout'  => $this->configuration->getTimeout(),
+		    'verify' => false
                 ]);
             }
         }
